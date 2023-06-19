@@ -1,0 +1,11 @@
+node_modules
+dist
+
+*.fig
+
+logs
+*.log
+npm-debug.log*
+
+.vscode/*
+!.vscode/extensions.json
