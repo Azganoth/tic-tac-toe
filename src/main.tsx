@@ -9,5 +9,5 @@ import "./assets/scss/styles.scss";
 createRoot(document.querySelector("#root")!).render(
   <StrictMode>
     <App />
-  </StrictMode>
+  </StrictMode>,
 );

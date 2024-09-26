@@ -4,13 +4,13 @@ This is a solution to the [Tic Tac Toe challenge on Frontend Mentor](https://www
 
 ## Table of contents
 
-- [Frontend Mentor - Tic Tac Toe solution](#frontend-mentor---tic-tac-toe-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-  - [Author](#author)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
 ## Overview
 
@@ -24,21 +24,25 @@ Users should be able to:
 - **Bonus 1**: Save the game state in the browser so that it’s preserved if the player refreshes their browser
 - **Bonus 2**: Instead of having the computer randomly make their moves, try making it clever so it’s proactive in blocking your moves and trying to win
 
-<!-- ### Screenshot
+### Screenshot
 
 ![](./screenshot.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+  - Semantic markup
+- CSS3
+  - Custom properties
+  - Flexbox
+  - Grid
 - Mobile-first workflow
 - [SASS](https://sass-lang.com/) - CSS preprocessor
 - [React](https://react.dev/) - JavaScript library
