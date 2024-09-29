@@ -1,6 +1,6 @@
 export function App() {
   return (
-    <div>
+    <div data-testid="app">
       {/* New game menu start */}
       Pick player 1's mark Remember: X goes first New Game (vs CPU) New Game (vs
       player)
