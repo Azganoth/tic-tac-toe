@@ -1,4 +1,4 @@
-function App() {
+export function App() {
   return (
     <div>
       {/* New game menu start */}
@@ -15,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
