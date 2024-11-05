@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.action {
+  border: none;
+  border-radius: var(--border-radius-s);
+  padding: 0.6875rem 0.8125rem 0.9375rem;
+  background: var(--silver);
+  color: var(--navy);
+
+  @include box(var(--silver-dim), 0.25rem);
+
+  &Wrapper {
+    display: flex;
+    gap: 0.5rem;
+    justify-self: end;
+  }
+
+  &Icon {
+    @include icon(0.875rem);
+  }
+
+  &Quit {
+    padding: 0.0625rem;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}

@@ -26,3 +26,73 @@ $breakpoints: (
     @content;
   }
 }
+
+@mixin box($color, $offset) {
+  @if not type-of($offset) == "number" {
+    @error "Offset #{$offset} must be a number.";
+  }
+
+  box-shadow: inset 0 (-$offset) 0 $color;
+}
+
+@mixin icon($size) {
+  @if not type-of($size) == "number" {
+    @error "Size #{$size} must be a number.";
+  }
+
+  display: block;
+  width: $size;
+  height: $size;
+}
+
+%srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+%body {
+  font-size: 0.875rem;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+}
+
+%heading {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+%headingL {
+  @extend %heading;
+
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+%headingM {
+  @extend %heading;
+
+  font-size: 1.25rem;
+  letter-spacing: 1.25px;
+}
+
+%headingS {
+  @extend %heading;
+
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+%button {
+  appearance: none;
+  border: none;
+  width: 100%;
+  color: var(--navy);
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}

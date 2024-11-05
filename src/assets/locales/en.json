@@ -1,0 +1,59 @@
+{
+  "appName": "TicTacToe",
+  "common": {
+    "x": "X",
+    "o": "O",
+    "empty": "Empty",
+    "turn": "turn",
+    "ties": "Ties",
+    "row": "row",
+    "column": "column",
+    "at": "at"
+  },
+  "newGame": {
+    "title": "New Game",
+    "playerChoice": "Pick player 1's mark",
+    "hint": "Remember: X goes first",
+    "modes": {
+      "vsCpu": "vs CPU",
+      "vsPlayer": "vs player"
+    }
+  },
+  "game": {
+    "quit": "Quit game",
+    "restart": "Restart game",
+    "tie": "Round tied",
+    "takesRound": "takes the round"
+  },
+  "dialog": {
+    "restart": {
+      "title": "Restart Game",
+      "no": "No, cancel",
+      "yes": "Yes, restart",
+      "message": "Restart game?"
+    },
+    "quit": {
+      "title": "Quit Game",
+      "no": "No, back to game",
+      "yes": "Yes, quit",
+      "message": "Quit game?"
+    },
+    "endGame": {
+      "title": "End Game",
+      "quit": "Quit",
+      "nextRound": "Next round",
+      "messages": {
+        "player1": "Player 1 wins!",
+        "player2": "Player 2 wins!",
+        "cpuWin": "You won!",
+        "cpuLose": "Oh no, you lost"
+      },
+      "labels": {
+        "player1": "P1",
+        "player2": "P2",
+        "cpuPlayer": "You",
+        "cpuCPU": "CPU"
+      }
+    }
+  }
+}

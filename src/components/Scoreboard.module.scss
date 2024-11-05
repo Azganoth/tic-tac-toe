@@ -1,0 +1,38 @@
+.score {
+  border-radius: var(--border-radius-l);
+  padding: 0.75rem;
+  color: var(--navy);
+  text-align: center;
+
+  &.xWins {
+    background: var(--blue);
+  }
+
+  &.ties {
+    background: var(--silver);
+  }
+
+  &.oWins {
+    background: var(--yellow);
+  }
+
+  &Label {
+    @extend %body;
+
+    font-weight: normal;
+    font-size: 0.75rem;
+  }
+
+  &Points {
+    @extend %headingL;
+
+    margin-top: -2.5px;
+    user-select: none;
+  }
+
+  &board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+}

@@ -1,0 +1,21 @@
+.turn {
+  display: flex;
+  align-items: center;
+  gap: 0.5625rem;
+  margin: auto;
+  border-radius: var(--border-radius-s);
+  padding: 0.5625rem 0.9375rem 0.8125rem;
+  background: var(--navy-highlight);
+  cursor: default;
+
+  @include box(var(--navy-dim), 0.25rem);
+  @extend %body;
+
+  &Icon {
+    @include icon(1rem);
+  }
+
+  &Symbol {
+    @extend %srOnly;
+  }
+}

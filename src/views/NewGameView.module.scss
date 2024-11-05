@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.picker {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 1.0625rem;
+  padding: 0.5625rem 0.5rem;
+  border-radius: var(--border-radius-m);
+  background: var(--navy);
+
+  &Legend {
+    float: left;
+
+    @extend %headingS;
+  }
+
+  &Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1.5rem 1.875rem;
+    border: none;
+    border-radius: var(--border-radius-l);
+    background: var(--navy-highlight);
+
+    @include box(var(--navy-dim), 0.5rem);
+  }
+}
+
+.symbol {
+  position: relative;
+  color: var(--silver);
+
+  &.selected {
+    color: var(--navy);
+  }
+
+  &Input {
+    appearance: none;
+    display: block;
+    padding: 1.6875rem 4.125rem;
+    border-radius: var(--border-radius-m);
+    cursor: pointer;
+
+    &:checked {
+      background: var(--silver);
+    }
+
+    &:hover:not(:checked) {
+      background: var(--silver-transparent);
+    }
+
+    &:focus {
+      outline: 2px solid var(--silver-highlight);
+      outline-offset: -2px;
+    }
+  }
+
+  &Icon {
+    @include icon(2rem);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+}
+
+.message {
+  opacity: 50%;
+  text-transform: uppercase;
+}
+
+.newGame {
+  @extend %button;
+  @extend %headingS;
+
+  border-radius: var(--border-radius-l);
+  padding: 0.875rem 0.875rem 1.375rem;
+
+  &.cpu {
+    @include box(var(--yellow-dim), 0.5rem);
+
+    margin-top: 1.875rem;
+    background: var(--yellow);
+
+    &:hover {
+      background-color: var(--yellow-highlight);
+    }
+  }
+
+  &.player {
+    @include box(var(--blue-dim), 0.5rem);
+
+    margin-top: 1rem;
+    background: var(--blue);
+
+    &:hover {
+      background-color: var(--blue-highlight);
+    }
+  }
+}

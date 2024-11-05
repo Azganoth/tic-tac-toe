@@ -12,4 +12,53 @@
   --silver-highlight: #dbe8ed;
   --silver-dim: #6b8997;
   --silver-transparent: #a8bfc90d;
+
+  --border-radius-l: 0.9375rem;
+  --border-radius-m: 0.625rem;
+  --border-radius-s: 0.3125rem;
+}
+
+*:focus {
+  outline: 2px solid var(--silver-dim);
+}
+
+html {
+  font:
+    500 16px/1.25 Outfit,
+    sans-serif;
+}
+
+body {
+  background: var(--navy);
+  color: var(--silver);
+  font-size: 0.875rem;
+  letter-spacing: 0.88px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  color: inherit;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }

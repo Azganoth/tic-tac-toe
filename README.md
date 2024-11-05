@@ -35,6 +35,10 @@ Users should be able to:
 
 ## My process
 
+- Modified SVG icons to use currentColor and viewBox for better scaling.
+- Implemented mid-game quit functionality.
+- Added support for Portuguese (Brazil) locale.
+
 ### Built with
 
 - HTML5
@@ -47,6 +51,10 @@ Users should be able to:
 - [SASS](https://sass-lang.com/) - CSS preprocessor
 - [React](https://react.dev/) - JavaScript library
 - [Vite](https://vitejs.dev/) - Frontend tooling
+- [Vitest](https://vitest.dev/) - Testing framework
+- [Testing Library](https://testing-library.com/) - Frontend Testing Library (react)
+
+> [SVGR](https://react-svgr.com/) used to easily import SVG icons as react components.
 
 ## Author
 

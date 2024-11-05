@@ -1,0 +1,32 @@
+.title {
+  @extend %body;
+
+  margin-bottom: 1rem;
+}
+
+.message {
+  @extend %headingL;
+
+  margin-bottom: 1.5rem;
+
+  &Container {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  &X {
+    color: var(--blue);
+  }
+
+  &O {
+    color: var(--yellow);
+  }
+
+  &Icon {
+    @include icon(1.875rem);
+  }
+
+  &Symbol {
+    @extend %srOnly;
+  }
+}

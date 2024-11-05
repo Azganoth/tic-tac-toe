@@ -5,9 +5,12 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { App } from "./App.tsx";
 import "./assets/scss/styles.scss";
+import { TranslationProvider } from "./contexts/TranslationContext.tsx";
 
 createRoot(document.querySelector("#root")!).render(
   <StrictMode>
-    <App />
+    <TranslationProvider>
+      <App />
+    </TranslationProvider>
   </StrictMode>,
 );

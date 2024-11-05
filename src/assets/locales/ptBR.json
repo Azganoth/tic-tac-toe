@@ -1,0 +1,59 @@
+{
+  "appName": "TicTacToe",
+  "common": {
+    "x": "X",
+    "o": "O",
+    "empty": "Vazio",
+    "turn": "turno",
+    "ties": "Empates",
+    "row": "linha",
+    "column": "coluna",
+    "at": "at"
+  },
+  "newGame": {
+    "title": "Novo jogo",
+    "playerChoice": "Escolha a marca do jogador 1",
+    "hint": "Lembre-se: X começa",
+    "modes": {
+      "vsCpu": "contra bot",
+      "vsPlayer": "contra jogador"
+    }
+  },
+  "game": {
+    "quit": "Sair do jogo",
+    "restart": "Reiniciar jogo",
+    "tie": "Rodada empatada",
+    "takesRound": "ganhou a rodada"
+  },
+  "dialog": {
+    "restart": {
+      "title": "Reiniciar Jogo",
+      "no": "Não, cancelar",
+      "yes": "Sim, reiniciar",
+      "message": "Reiniciar jogo?"
+    },
+    "quit": {
+      "title": "Sair do Jogo",
+      "no": "Não, voltar ao jogo",
+      "yes": "Sim, sair",
+      "message": "Sair do jogo?"
+    },
+    "endGame": {
+      "title": "Fim de Jogo",
+      "quit": "Sair",
+      "nextRound": "Próxima rodada",
+      "messages": {
+        "player1": "Jogador 1 ganhou!",
+        "player2": "Jogador 2 ganhou!",
+        "cpuWin": "Você ganhou!",
+        "cpuLose": "Oh não, você perdeu."
+      },
+      "labels": {
+        "player1": "J1",
+        "player2": "J2",
+        "cpuPlayer": "Você",
+        "cpuCPU": "BOT"
+      }
+    }
+  }
+}
