@@ -2,4 +2,8 @@
   @extend %headingL;
 
   margin-bottom: 1.5rem;
+
+  @include breakpoint("tablet") {
+    margin-bottom: 2rem;
+  }
 }

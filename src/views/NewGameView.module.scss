@@ -6,6 +6,10 @@
 
 .title {
   margin-bottom: 2rem;
+
+  @include breakpoint("tablet") {
+    margin-bottom: 2.5rem;
+  }
 }
 
 .picker {
@@ -50,6 +54,10 @@
     border-radius: var(--border-radius-m);
     cursor: pointer;
 
+    @include breakpoint("tablet") {
+      padding: 1.6875rem 6.1875rem;
+    }
+
     &:checked {
       background: var(--silver);
     }
@@ -87,11 +95,19 @@
   border-radius: var(--border-radius-l);
   padding: 0.875rem 0.875rem 1.375rem;
 
+  @include breakpoint("tablet") {
+    padding: 1.0625rem 0.875rem 1.5625rem;
+  }
+
   &.cpu {
     @include box(var(--yellow-dim), 0.5rem);
 
     margin-top: 1.875rem;
     background: var(--yellow);
+
+    @include breakpoint("tablet") {
+      margin-top: 2.5rem;
+    }
 
     &:hover {
       background-color: var(--yellow-highlight);
@@ -103,6 +119,10 @@
 
     margin-top: 1rem;
     background: var(--blue);
+
+    @include breakpoint("tablet") {
+      margin-top: 1.25rem;
+    }
 
     &:hover {
       background-color: var(--blue-highlight);

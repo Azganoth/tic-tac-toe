@@ -59,6 +59,11 @@ $breakpoints: (
   font-size: 0.875rem;
   letter-spacing: 0.88px;
   text-transform: uppercase;
+
+  @include breakpoint("tablet") {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
 }
 
 %heading {
@@ -71,6 +76,11 @@ $breakpoints: (
 
   font-size: 1.5rem;
   letter-spacing: 1.5px;
+
+  @include breakpoint("tablet") {
+    font-size: 2.5rem;
+    letter-spacing: 2.5px;
+  }
 }
 
 %headingM {
@@ -78,6 +88,11 @@ $breakpoints: (
 
   font-size: 1.25rem;
   letter-spacing: 1.25px;
+
+  @include breakpoint("tablet") {
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
 }
 
 %headingS {

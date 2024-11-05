@@ -1,7 +1,7 @@
 .turn {
   display: flex;
   align-items: center;
-  gap: 0.5625rem;
+  gap: 0.625rem;
   margin: auto;
   border-radius: var(--border-radius-s);
   padding: 0.5625rem 0.9375rem 0.8125rem;
@@ -11,8 +11,17 @@
   @include box(var(--navy-dim), 0.25rem);
   @extend %body;
 
+  @include breakpoint("tablet") {
+    padding: 0.875rem 1.875rem 1.125rem;
+    gap: 0.875rem;
+  }
+
   &Icon {
     @include icon(1rem);
+
+    @include breakpoint("tablet") {
+      @include icon(1.25rem);
+    }
   }
 
   &Symbol {

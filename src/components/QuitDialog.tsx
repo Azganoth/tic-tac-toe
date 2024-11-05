@@ -23,6 +23,7 @@ export const QuitDialog = ({
       cancelHandle={() => cancelHandle()}
       cancelText={translations.dialog.quit.no}
       ariaLabel={translations.dialog.quit.title}
+      big
     >
       <h2 className={classes.message}>{translations.dialog.quit.message}</h2>
     </Dialog>

@@ -19,6 +19,10 @@
 
     @include box(var(--navy-dim), 0.5rem);
 
+    @include breakpoint("tablet") {
+      padding: 2.125rem 2.375rem 2.625rem;
+    }
+
     &.x {
       color: var(--blue);
     }
@@ -29,6 +33,10 @@
 
     .icon {
       @include icon(2.5rem);
+
+      @include breakpoint("tablet") {
+        @include icon(4rem);
+      }
 
       &.preview {
         visibility: hidden;

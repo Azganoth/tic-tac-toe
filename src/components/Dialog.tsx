@@ -6,6 +6,7 @@ import classes from "./Dialog.module.scss";
 export type DialogProps = {
   children?: ReactNode;
   isShown: boolean;
+  big?: boolean;
   okText: string;
   okHandle: () => void;
   cancelText: string;
@@ -16,6 +17,7 @@ export type DialogProps = {
 export const Dialog = ({
   children,
   isShown,
+  big,
   okText,
   okHandle,
   cancelText,
@@ -56,7 +58,7 @@ export const Dialog = ({
     <dialog
       ref={dialogRef}
       role="alertdialog"
-      className={cx(classes.dialog)}
+      className={cx(classes.dialog, { [classes.big]: big })}
       aria-label={ariaLabel}
     >
       {children}

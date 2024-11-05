@@ -23,6 +23,7 @@ export const RestartDialog = ({
       cancelHandle={() => cancelHandle()}
       cancelText={translations.dialog.restart.no}
       ariaLabel={translations.dialog.restart.title}
+      big
     >
       <h2 className={classes.message}>{translations.dialog.restart.message}</h2>
     </Dialog>
