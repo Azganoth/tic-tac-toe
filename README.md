@@ -6,7 +6,7 @@ This is a solution to the [Tic Tac Toe challenge on Frontend Mentor](https://www
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,14 +24,16 @@ Users should be able to:
 - **Bonus 1**: Save the game state in the browser so that it’s preserved if the player refreshes their browser
 - **Bonus 2**: Instead of having the computer randomly make their moves, try making it clever so it’s proactive in blocking your moves and trying to win
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+![](./screenshot_1.jpeg)
+
+![](./screenshot_2.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Mobile-first solution using React, SASS and Vite](https://www.frontendmentor.io/solutions/mobile-first-solution-using-react-sass-and-vite-9BJSCneLuA)
+- Live Site URL: [Tic Tac Toe](https://azganoth.github.io/tic-tac-toe/)
 
 ## My process
 
