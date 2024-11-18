@@ -1,20 +1,21 @@
-# Frontend Mentor - Tic Tac Toe solution
+# Frontend Mentor Challenge: Tic Tac Toe
 
 This is a solution to the [Tic Tac Toe challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tic-tac-toe-game-Re7ZF_E2v).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshots](#screenshots)
+  - [Additional](#additional)
+- [Development](#development)
+  - [Stack](#stack)
+  - [Tools and Workflow](#tools-and-workflow)
+  - [Resources](#resources)
+- [Showcase](#showcase)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+  - [Screenshots](#screenshots)
 - [Author](#author)
 
-## Overview
-
-### The challenge
+## <a name="overview">Overview 📋</a>
 
 Users should be able to:
 
@@ -24,41 +25,53 @@ Users should be able to:
 - **Bonus 1**: Save the game state in the browser so that it’s preserved if the player refreshes their browser
 - **Bonus 2**: Instead of having the computer randomly make their moves, try making it clever so it’s proactive in blocking your moves and trying to win
 
-### Screenshots
+### Additional
 
-![](./screenshot_1.jpeg)
+- Modified SVG icons to use currentColor and viewBox for better scaling.
+- Implemented mid-game quit functionality.
+- Added support for Portuguese (Brazil) locale.
 
-![](./screenshot_2.jpeg)
+## <a name="development">Development 🛠️</a>
+
+### Stack
+
+- **HTML5**
+- **CSS3**
+- **TypeScript**
+- **SASS**
+- **React**
+- **Vite**
+- **Vitest**
+- **Testing Library**
+
+### Tools and Workflow
+
+- **GitHub Actions**
+- **GitHub Pages**
+- **Prettier**
+
+### Resources
+
+- [SVGR](https://react-svgr.com/) - Import SVG icons as react components.
+
+## <a name="showcase">Showcase 🖼️</a>
 
 ### Links
 
 - Solution URL: [Mobile-first solution using React, SASS and Vite](https://www.frontendmentor.io/solutions/mobile-first-solution-using-react-sass-and-vite-9BJSCneLuA)
 - Live Site URL: [Tic Tac Toe](https://azganoth.github.io/tic-tac-toe/)
 
-## My process
+### Screenshots
 
-- Modified SVG icons to use currentColor and viewBox for better scaling.
-- Implemented mid-game quit functionality.
-- Added support for Portuguese (Brazil) locale.
+#### New game
 
-### Built with
+![](./screenshot_1.jpeg)
 
-- HTML5
-  - Semantic markup
-- CSS3
-  - Custom properties
-  - Flexbox
-  - Grid
-- Mobile-first workflow
-- [SASS](https://sass-lang.com/) - CSS preprocessor
-- [React](https://react.dev/) - JavaScript library
-- [Vite](https://vitejs.dev/) - Frontend tooling
-- [Vitest](https://vitest.dev/) - Testing framework
-- [Testing Library](https://testing-library.com/) - Frontend Testing Library (react)
+#### Game
 
-> [SVGR](https://react-svgr.com/) used to easily import SVG icons as react components.
+![](./screenshot_2.jpeg)
 
-## Author
+## <a name="author">Author ✍️</a>
 
 - Website - [Ademir José Ferreira Júnior](https://github.com/Azganoth)
 - Frontend Mentor - [@Azganoth](https://www.frontendmentor.io/profile/Azganoth)
